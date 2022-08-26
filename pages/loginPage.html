@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title></title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1 class="wrapper__h1">
+        <button class="wrapper__logo-btn" type="button">
+          <img
+            class="wrapper__logo-img"
+            src="../src/assets/Logo-hodu.png"
+            alt="HODU 로고 이미지"
+          />
+        </button>
+      </h1>
+      <section class="login-wrapper">
+        <div class="login-wrapper__tab">
+          <button class="login-wrapper__buyer" type="button">
+            구매회원 로그인
+          </button>
+          <button class="login-wrapper__seller" type="button">
+            판매회원 로그인
+          </button>
+        </div>
+        <form class="form-wrapper" action="">
+          <input
+            id="form-wrapper__id"
+            type="text"
+            name="ID"
+            maxlength="20"
+            placeholder="아이디"
+            required
+          />
+          <input
+            id="form-wrapper__pw"
+            type="password"
+            name="PW"
+            maxlength="8"
+            placeholder="비밀번호"
+            required
+          />
+          <button id="login-btn" type="submit">로그인</button>
+        </form>
+      </section>
+      <span>
+        <a class="join" href="#">회원가입 &nbsp; | </a>
+        <a class="forgot-password" href="#"> &nbsp; 비밀번호 찾기</a>
+      </span>
+    </main>
+    <script type="module" src="/script/loginPage.js"></script>
+  </body>
+</html>
