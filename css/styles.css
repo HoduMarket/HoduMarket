@@ -1,6 +1,8 @@
 @import './reset.css';
 @import './variable.css';
 
+@import './components/loginPage.css';
+
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 * {

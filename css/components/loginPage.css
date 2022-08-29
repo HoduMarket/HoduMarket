@@ -1,0 +1,111 @@
+.wrapper {
+  text-align: center;
+}
+.wrapper__h1 {
+  margin: 100px 0 70px;
+}
+.wrapper__logo-img {
+  width: 238px;
+}
+
+.login-wrapper {
+  width: 548px;
+  background-color: #ffffff;
+  border-style: none solid solid;
+  border-width: 1px;
+  border-color: var(--borderColor);
+  border-radius: 10px;
+  margin: 0 auto 30px;
+  overflow: hidden;
+}
+
+.login-wrapper__tab {
+  display: flex;
+  width: 550px;
+  height: 60px;
+  overflow: hidden;
+}
+.login-wrapper__buyer {
+  border-right: solid 1px var(--borderColor);
+}
+
+.login-wrapper__seller {
+  background: #f2f2f2;
+  border-left: solid 1px var(--borderColor);
+}
+
+.login-wrapper__buyer,
+.login-wrapper__seller {
+  width: 274px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 18px;
+  border-top: 1px solid var(--borderColor);
+  border-radius: 10px;
+  padding: 20px 76px 38px 77px;
+}
+
+.form-wrapper {
+  padding: 34px 35px 36px;
+  border-radius: 10px;
+}
+
+input[id^='form-wrapper'] {
+  width: 480px;
+  line-height: 60px;
+  border-bottom: 1px solid;
+}
+
+#form-wrapper__id {
+  margin-top: 6px;
+  border-color: var(--borderColor);
+}
+
+#form-wrapper__pw {
+  margin-top: 6px;
+  border-color: var(--borderColor);
+}
+
+#form-wrapper__id::placeholder,
+#form-wrapper__pw::placeholder {
+  color: var(--subTextcolor);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#form-wrapper__id:focus,
+#form-wrapper__pw:focus {
+  border-color: var(--mainColor);
+}
+
+#form-wrapper__id--error:focus,
+#form-wrapper__pw--error:focus {
+  border-color: var(--checkColor);
+}
+
+#login-btn {
+  width: 480px;
+  background: var(--mainColor);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 36px;
+  padding: 19px 215px;
+  border-radius: 5px;
+}
+
+.join,
+.forgot-password {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.valid-alert {
+  margin-top: 26px;
+  float: left;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--checkColor);
+}
